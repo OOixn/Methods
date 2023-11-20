@@ -1,63 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #000;
-    color:#fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
-    border:none;
-    border-radius: 10px;
-    background-color: #000;
-    color:#fff;
+  border: none;
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
 }
 #game {
-    width: 50%;
-    margin: 400px auto;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #fff ;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
 }
 
-#container{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    gap: 20px;
+#container {
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
 }
 
 input {
-    width: 200px;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.2);
-    border:none;
-    color: #fff;
+  width: 200px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: #fff;
 }
 
-input:hover{
-    background-color: rgba(255, 255, 255, 0.4);
+input:hover {
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
-input:focus{
-    background-color: rgba(0, 0, 0, 0);
-    outline: none;
-    border-bottom: 1px solid white;
+input:focus {
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  border-bottom: 1px solid white;
 }
 
 button {
-    padding: 10px 20px;
-    cursor: pointer;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#content {
+  margin-top: 20px;
+}
+
+#question {
+  margin-bottom: 20px;
 }
 
 #feedback {
-    color: red;
-    font-size: 1.2em;
+  margin-top: 20px;
+  color: red;
+  font-size: 1.2em;
 }
 
-#restartButton{
-    display: none;
+#restartButton {
+  display: none;
 }
-
